@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slider</title>
+    <script src="../js/slider.js"></script>
+    <link rel="stylesheet" href="../css/slider2.css">
+</head>
+<body>
+    <section class="projects">
+        <div class="project-content-img">
+            <img class="project-content-img1" src="../images/image%202.png" alt="Изображение комнаты">
+        </div>
+        <div class="container project-content">
+            <ul class="project-content-listOff">
+                <li class="listOff-item1">
+                    <a href="#" class="item1-a">Rostov-on-Don, Admiral</a>
+                </li>
+                <li class="listOff-item2">
+                    <a href="#" class="item2-a">Sochi Thieves</a>
+                </li>
+                <li class="listOff-item3">
+                    <a href="#" class="item3-a">Rostov-on-Don Patriotic</a>
+                </li>
+            </ul>
+            <div class="project-content-step2">
+                <div>
+                    <h2 class="project-content-title">Completed<br> projects</h2>
+                    <p class="projects-p">Only a small part of the work performed by our company is presented<br> on the site. For 14 years on in the construction<br> market we have made happy more than 1000 families</p>
+                    <div class="project-content-step2">
+                        <div class="city1">
+                            <h1 class="title-1">
+                            City:</h1>
+                            <p class="city_txt1">Sochi<br>Thieves</p>
+                        </div>
+                        <div class="city2">
+                            <h1 class="title-2">
+                                apartment area:</h1>
+                            <p class="city-txt2">105 m2</p>
+                        </div>
+                        <div class="city3">
+                            <h1 class="title-3">
+                                Repair time:</h1>
+                            <p class="city-txt3">4 months </p>
+                        </div>
+                        <div class="city4">
+                            <h1 class="title-4">
+                                Repair Cost:</h1>
+                            <p class="city-txt4">Upon request</p>
+                        </div>
+                    </div>
+                    <div class="project-content-nav">
+                        <img class="project-content-nav-img1" src="../images/project_vector1.png" alt="Элемент навигации">
+                        <img class="project-content-nav-img2" src="../images/project_vector3.png" alt="">
+                        <img class="project-content-nav-img3" src="../images/project_vector3.png" alt="">
+                        <img class="project-content-nav-img4" src="../images/project_vector3.png" alt="">
+                        <img class="project-content-nav-img5" src="../images/project_vector1.png" alt="Элемент навигации">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<script>
+    const button1 = document.querySelector('.project-content-nav-img1');
+    const button2 = document.querySelector('.project-content-nav-img5');
+
+    button1.addEventListener('click', () => {
+        document.location.href = ('../html.html');
+    })
+    button2.addEventListener('click', () => {
+        document.location.href = ('html3.html');
+    })
+</script>
+</body>
+</html>

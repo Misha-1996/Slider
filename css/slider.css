@@ -1,0 +1,267 @@
+body {
+    background: #131313;
+    max-width: 1440px
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.project-content-listOff {
+    position: relative;
+    right: 70px;
+    top: 107px;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+.listOff-item2 {
+    margin-right: 61px;
+}
+
+.listOff-item1 {
+    margin-right: 61px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.item1-a {
+    color: #E3B873;
+}
+
+.listOff-item2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.item2-a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.listOff-item3 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+
+.item3-a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.project-content-title {
+    padding-top: 110px;
+    padding-left: 134px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.project-content-step2 {
+    position: relative;
+}
+
+.projects-p {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 442px;
+    height: 86px;
+    padding-left: 134px;
+}
+
+.title-1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 42px;
+    padding-left: 134px;
+}
+
+.city_txt1 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 9px;
+    padding-left: 134px;
+}
+
+.title-2 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    top: -96px;
+    left: 324px;
+}
+
+.city-txt2 {
+    position: relative;
+    top: -97px;
+    left: 324px;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.title-3 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    top: -34px;
+    padding-left: 134px;
+}
+
+.city-txt3 {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 134px;
+    position: relative;
+    top: -30px;
+}
+
+.title-4 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+    padding-left: 324px;
+    position: relative;
+    top: -110px;
+}
+
+.city-txt4{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-left: 324px;
+    position: relative;
+    top: -105px;
+}
+
+@media screen and (max-width: 1025px) {
+    .project-content-img {
+        left: 850px;
+        position: absolute;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .project-content-img {
+        left: 850px;
+        position: absolute;
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 2560px){
+    .project-content-img {
+        left: 850px;
+        position: absolute;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .project-content-img {
+        left: 850px;
+        position: absolute;
+        width: 700px;
+    }
+}
+
+.project-content-img1 {
+    position: absolute;
+    width: 679px;
+    right: 134px;
+    top: 176px;
+}
+
+.project-content-nav-img1 {
+    transform: rotate(-180deg);
+    width: 41px;
+    position: absolute;
+    left: 136px;
+    top: 597px;
+    cursor: pointer;
+}
+
+.project-content-nav-img2 {
+    background: #FFFFFF;
+    border-radius: 30px;
+    position: absolute;
+    top: 599px;
+    left: 206px;
+}
+
+.project-content-nav-img3 {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    position: absolute;
+    top: 599px;
+    left: 233px;
+}
+
+.project-content-nav-img4 {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    position: absolute;
+    top: 599px;
+    left: 260px;
+}
+
+.project-content-nav-img5 {
+    width: 41px;
+    position: absolute;
+    top: 597px;
+    left: 299px;
+    cursor: pointer;
+}
